@@ -8,16 +8,6 @@ import (
 	"unicode"
 )
 
-/* TODO:
-- Split string on half of character length
-- Find values that match between compartments
-- Map priority to lowercase letters and  upercase letters 1 - 26 + 27 - 52
-- Return priority of selected values
-- Collect sum of all values in input
-
-*/
-
-
 func main() {
 	content, error := os.ReadFile("input.txt")
 
